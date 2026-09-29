@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal X-Ray Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+        <!-- START SCREEN -->
+<div id="startScreen" class="start-screen">
+
+    <div class="start-animal">🐘 🐯 🐟</div>
+
+    <h1>🦴 ANIMAL</h1>
+    <h2>X-RAY ADVENTURE</h2>
+
+    <p>Discover what's inside the animals!</p>
+
+    <button id="startButton" class="start-button">
+        ▶ PLAY GAME
+    </button>
+
+    <div class="start-hint">
+        🐾 Learn • Discover • Play 🐾
+    </div>
+
+</div>
+
+        <header class="game-header">
+            <div>
+                <h1>🦴 Animal X-Ray Adventure</h1>
+                <p>Discover what's inside the animals!</p>
+            </div>
+
+            <div class="score-box">
+                ⭐ Score: <span id="score">0</span>
+            </div>
+        </header>
+
+        <div class="progress-area">
+            <div class="progress-text">
+    Animal <span id="animalNumber">1</span> of
+    <span id="totalAnimals">10</span>
+</div>
+
+            <div class="progress-bar">
+                <div id="progressFill"></div>
+            </div>
+        </div>
+
+        <main class="game-area">
+
+            <div class="animal-card">
+
+                <div class="instruction" id="instruction">
+                    Can you discover the skeleton?
+                </div>
+
+                <div class="animal-image-container">
+                    <img
+                        id="animalImage"
+                        src="images/elephant.png"
+                        alt="Elephant"
+                    >
+                </div>
+
+                <h2 id="animalName">Elephant</h2>
+
+                <button id="xrayButton" class="main-button">
+                    🩻 SHOW X-RAY
+                </button>
+
+                <div id="quizArea" class="quiz-area hidden">
+
+                    <h3>🤔 What animal is this?</h3>
+
+                    <div
+                        id="answerButtons"
+                        class="answer-buttons">
+                    </div>
+
+                </div>
+
+                <div id="message" class="message"></div>
+
+                <button id="nextButton" class="next-button hidden">
+                    ➡️ NEXT ANIMAL
+                </button>
+
+            </div>
+
+        </main>
+
+        <div id="finishScreen" class="finish-screen hidden">
+
+            <div class="trophy">🏆</div>
+
+            <h2>AMAZING JOB!</h2>
+
+            <p>
+                You discovered all the animal skeletons!
+            </p>
+
+            <div class="final-score">
+                ⭐ Final Score:
+                <span id="finalScore">0</span>
+            </div>
+
+            <button id="restartButton" class="main-button">
+                🔄 PLAY AGAIN
+            </button>
+
+        </div>
+
+        <footer>
+            Animal X-Ray Adventure • Learn & Play
+        </footer>
+
+    </div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
