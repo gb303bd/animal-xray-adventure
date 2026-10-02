@@ -54,6 +54,109 @@ const animals = [
         name: "rhino",
         normal: "images/rhino.png",
         skeleton: "images/rhino-skeleton.png"
+    },
+
+    // ANIMALS 11–30
+
+    {
+        name: "bear",
+        normal: "images/bear.png",
+        skeleton: "images/bear-skeleton.png"
+    },
+    {
+        name: "deer",
+        normal: "images/deer.png",
+        skeleton: "images/deer-skeleton.png"
+    },
+    {
+        name: "kangaroo",
+        normal: "images/kangaroo.png",
+        skeleton: "images/kangaroo-skeleton.png"
+    },
+    {
+        name: "horse",
+        normal: "images/horse.png",
+        skeleton: "images/horse-skeleton.png"
+    },
+    {
+        name: "cow",
+        normal: "images/cow.png",
+        skeleton: "images/cow-skeleton.png"
+    },
+    {
+        name: "pig",
+        normal: "images/pig.png",
+        skeleton: "images/pig-skeleton.png"
+    },
+    {
+        name: "goat",
+        normal: "images/goat.png",
+        skeleton: "images/goat-skeleton.png"
+    },
+    {
+        name: "sheep",
+        normal: "images/sheep.png",
+        skeleton: "images/sheep-skeleton.png"
+    },
+    {
+        name: "dog",
+        normal: "images/dog.png",
+        skeleton: "images/dog-skeleton.png"
+    },
+    {
+        name: "cat",
+        normal: "images/cat.png",
+        skeleton: "images/cat-skeleton.png"
+    },
+    {
+        name: "rabbit",
+        normal: "images/rabbit.png",
+        skeleton: "images/rabbit-skeleton.png"
+    },
+    {
+        name: "fox",
+        normal: "images/fox.png",
+        skeleton: "images/fox-skeleton.png"
+    },
+    {
+        name: "wolf",
+        normal: "images/wolf.png",
+        skeleton: "images/wolf-skeleton.png"
+    },
+    {
+        name: "moose",
+        normal: "images/moose.png",
+        skeleton: "images/moose-skeleton.png"
+    },
+    {
+        name: "hippo",
+        normal: "images/hippo.png",
+        skeleton: "images/hippo-skeleton.png"
+    },
+    {
+        name: "leopard",
+        normal: "images/leopard.png",
+        skeleton: "images/leopard-skeleton.png"
+    },
+    {
+        name: "cheetah",
+        normal: "images/cheetah.png",
+        skeleton: "images/cheetah-skeleton.png"
+    },
+    {
+        name: "gorilla",
+        normal: "images/gorilla.png",
+        skeleton: "images/gorilla-skeleton.png"
+    },
+    {
+        name: "orangutan",
+        normal: "images/orangutan.png",
+        skeleton: "images/orangutan-skeleton.png"
+    },
+    {
+        name: "alligator",
+        normal: "images/alligator.png",
+        skeleton: "images/alligator-skeleton.png"
     }
 ];
 
